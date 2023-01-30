@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <title>Dorothy Chou</title>
+    <meta name="description" content="home page">
+    <link rel="icon" type="image/x-icon" href="/media/sparkle.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">home</a>
+            <a href="/experience.html">experience</a>
+            <a href="/projects.html">projects</a>
+            <a href="/aboutme.html">about me</a>
+        </nav>
+        <audio src="/media/home/castle in the sky.mp3" autoplay loop id="music">
+            Your browser does not support the audio tag.
+        </audio>
+        <hr>
+    </header>
+    <main>
+        <style>
+            /* add styling elements */
+        </style>
+        <h1>Dorothy Chou</h1>
+        <picture>
+            <img src="/media/home/me.jpg" alt="Profile Photo"" width="300" height="300">
+        </picture>
+
+        <pre>
+Hello! I'm Dorothy. I am pursuring a degree in Mathematics-Computer Science and a
+minor in Interaction Design at the University of California, San Diego. I am looking
+for a full time software development position after my planned graduation in June 2023.
+        </pre>
+
+        <h3>My Resume</h3>
+        <span><i><a href="/media/home/resume.pdf">resume</a></i></span>
+
+        <br>
+        <canvas id="my-canvas" height="30" width="100">Browser does not support the canvas tag.</canvas>
+        <script>
+            var c = document.getElementById("my-canvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#B2ABD6";
+            ctx.fillRect(0, 0, 100, 10);
+        </script>
+        <svg width="20" height="30">
+            <circle cx="10" cy="5" r="5" fill="#B2ABD6" />
+        </svg>
+    </main>
+</body>
+<hr>
+<footer>
+    <table>
+        <caption>Contact Information</caption>
+        <colgroup>
+            <col span="2">
+        </colgroup>
+        <tr>
+            <th>Phone</th>
+            <th>Email</th>
+            <th>Linkedin</th>
+        </tr>
+        <tr>
+            <td>(408)***-****</td>
+            <td>dorothyychou@gmail.com</td>
+            <td><a href="https://www.linkedin.com/in/dorothyychou/">dorothyychou</a></td>
+        </tr>
+    </table>
+
+    <button onclick="">click for a surprise!</button> <!--call method in script to show template-->
+    <template>
+        <h2>Tiger the Cat</h2>
+        <img src="/media/home/tiger.jpg" width="200" height="200">
+    </template>
+    <script></script> <!--include method to make template contents visible-->
+</footer>
+</html>
