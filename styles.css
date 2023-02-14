@@ -155,7 +155,7 @@ video, #pf-screens {
 }
 
 /* RESPONSIVE DESIGN */
-@media screen and (min-width: 1500px) { /* desktop size */
+@media only screen and (min-width: 1500px) { /* desktop size */
     #me-pic {
         width: 20vw;
     }
@@ -168,7 +168,7 @@ video, #pf-screens {
         width: 30vw;
     }
 }
-@media screen and (max-width: 767px) { /* tablet size */
+@media only screen and (max-width: 767px) { /* tablet size */
     nav {
         padding-top: 3%; /* to account for camera on devices */
     }
@@ -186,7 +186,7 @@ video, #pf-screens {
         width: 80vw;
     }
 }
-@media screen and (max-width: 575px) { /* phone screen size */
+@media only screen and (max-width: 575px) { /* phone screen size */
     nav {
         display: none;
     }
