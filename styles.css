@@ -94,7 +94,8 @@ h3 {
 
 /* FOOTER STYLE */
 footer {
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 caption {
     margin: 20px;
@@ -168,8 +169,12 @@ video, #pf-screens {
     }
 }
 @media screen and (max-width: 767px) { /* tablet size */
+    nav {
+        padding-top: 3%; /* to account for camera on devices */
+    }
+
     #name {
-        margin-top: 7%;
+        margin-top: 8%;
         font-size: 30px;
     }
 
@@ -190,6 +195,14 @@ video, #pf-screens {
         margin-top: 0%;
     }
 
+    #me-pic {
+        width: 80vw;
+    }
+
+    header {
+        padding-top: 5%; /* to account for camera on devices */
+    }
+    
     #ham-menu {
         display: contents;
     }
