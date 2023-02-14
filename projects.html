@@ -4,23 +4,28 @@
     <title>Projects</title>
     <meta name="description" content="projects page">
     <link rel="icon" type="image/x-icon" href="/media/sparkle.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans">
 </head>
 <body>
     <header>
         <nav>
-            <a href="/index.html">home</a>
-            <a href="/experience.html">experience</a>
-            <a href="/projects.html">projects</a>
-            <a href="/aboutme.html">about me</a>
+            <ul>
+                <li><a href="/index.html">home</a></li>
+                <li><a href="/experience.html">experience</a></li>
+                <li><a id="currpage" href="/projects.html">projects</a></li>
+                <li><a href="/aboutme.html">about me</a></li>
+            </ul>
         </nav>
-        <hr>
+        <p id="ham-menu">&#8801;</p>
     </header>
     <main>
         <h1><strong>projects</strong></h1>
         
         <div class="everglow">
             <h2>Everglow</h2>
-            <p>
+            <p id="content">
                 I developed a web application written in Javascript and deployed through Firebase
                 to display the battery level and charging status of a solar-powered lamp with a
                 team of engineering students. I conducted user research before and during the
@@ -28,9 +33,6 @@
                 motivated by user feedback. Finally, I implemented the final drafts of the screens
                 using React for the user interface.
             </p>
-            <img src="/media/projects/everglow_screens.png" alt="Everglow screens" width="300" height="200">
-            <img src="/media/projects/day_charging.png" alt="Everglow charging" width="350" height="200">
-            <img src="/media/projects/everglow_devices.png" alt="Everglow devices" width="350" height="200">
             <video width="800" height="450" controls>
                 <source src="/media/projects/everglow_demo.MOV" type="video/mp4">
             </video>
@@ -38,7 +40,7 @@
         
         <div class="sd-hacks">
             <h2>Training Arc</h2>
-            <p>
+            <p id="content">
                 For SD Hacks in February 2021, my team developed a web application to assist
                 students in solving math word problems and assess their proficiency in selected
                 topics through a diagnostic exam. I created wireframes on Figma and we utilized
@@ -46,14 +48,14 @@
                 the user and ReactJS, NodeJS, and Python to create the user interface based on
                 my wireframes.
             </p>
-            <aside>
+            <aside id="content">
                 We won the Wolfram Alpha Prize for innovative implementation of the Wolfram Alpha API.
             </aside>
         </div>
 
         <div class="pocket-fridge">
             <h2>Pocket Fridge</h2>
-            <p>
+            <p id="content">
                 I developed a web application that helps users track information about grocery
                 items in their refrigerator and the amount of food they wasted with a team of 
                 fellow students. I designed sample screens and prototypes on Figma, created the
@@ -61,10 +63,10 @@
                 and AWS Amplify and GraphQL for the database.
             </p>
             <picture>
-                <img src="/media/projects/pocket_fridge_screens.png" alt="Pocket Fridge screens" width="800" height="450">
+                <img id="pf-screens" src="/media/projects/pocket_fridge_screens.png" alt="Pocket Fridge screens" width="800" height="450">
             </picture>
-            <aside>
-                We won Best Overall App for the Women in Computing @ UCSD's Fall 2020 Development Program.
+            <aside id="content">
+                We won Best Overall App for the Women in Computing @ UCSD's Fall 2020 Dev Program.
             </aside>
         </div>
     </main>
