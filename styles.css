@@ -111,7 +111,7 @@ td {
     padding-right: 15px;
 }
 
-#content {
+.content {
     font-family: var(--body-font), sans-serif;
     font-weight: 200;
     font-size: 16px;
@@ -145,7 +145,7 @@ td {
 }
 
 /* MEDIA STYLE */
-#amzn-van {
+.amzn-van {
     height: 50vh;
     width: auto;
     padding-left: 5%;
@@ -163,7 +163,7 @@ video, #pf-screens {
         width: 20vw;
     }
 
-    #amzn-van {
+    ,amzn-van {
         height: 30vh;
     }
     
