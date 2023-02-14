@@ -208,6 +208,7 @@ video, #pf-screens {
     }
 
     table {
+        white-space: nowrap;
         transform: scale(0.8);
     }
 }
