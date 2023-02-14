@@ -206,4 +206,8 @@ video, #pf-screens {
     #ham-menu {
         display: contents;
     }
+
+    table {
+        transform: scale(0.8);
+    }
 }
