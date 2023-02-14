@@ -169,7 +169,7 @@ video, #pf-screens {
     }
 }
 @media only screen and (max-width: 850px) { /* tablet size */
-    nav {
+    nav, h1 {
         padding-top: 3%; /* to account for camera on devices */
     }
 
